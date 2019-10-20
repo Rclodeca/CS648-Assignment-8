@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+#add_employee_table { 
+    border-collapse:separate; 
+    border-spacing:0 15px; 
+}
+
+#add_employee_table td {
+    padding-right: 1em; 
+}
+
+#add_employee_table td:last-of-type {
+    text-align: right; 
+}
+
+input {
+    border: 1px solid #0068FF;
+    height: 1.5em;
+}
+
+input[type="button"] {
+    width: 5em;
+    height: 1.8em;
+    background: #00B8E7;
+    color: white;
+}
+
+#employee_table td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 3px;
+    width: 9em;
+}
+
+#employee_table th {
+    background: #00B8E7;
+    color: white;
+}
+
+#employee_table td:last-child {
+    text-align: center;
+}
+
+#employee_table tr:nth-child(even) {
+    background-color: rgb(184, 227, 253);
+}
+
+#employee_table tr:nth-child(odd) {
+    background-color: rgb(173, 176, 196);
+}
+
+#name_err, #title_err, #ext_err {
+    color: red;
+}
